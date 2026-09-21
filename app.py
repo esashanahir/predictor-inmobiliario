@@ -20,7 +20,7 @@ st.set_page_config(
 # --------------------------------------------------
 
 modelo = joblib.load(
-    "modelo_predictor_deploy.pkl"
+    "modelo_predictor_deploy_v2.pkl"
 )
 
 localidades = pd.read_csv(
